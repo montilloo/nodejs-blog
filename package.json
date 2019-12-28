@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-blog",
+  "version": "1.0.0",
+  "description": "nodejs搭建简单博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montilloo/nodejs-blog.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Blog",
+    "Koa2"
+  ],
+  "author": "nikun2008@126.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/montilloo/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/montilloo/nodejs-blog#readme",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "koa": "^2.9.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^8.0.0-alpha.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^5.2.1",
+    "mongoose": "^5.8.3"
+  }
+}
